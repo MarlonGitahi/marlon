@@ -1,0 +1,29 @@
+p{text-align: left;color: #8904B1}
+	div{background-color: #58FAF4}
+	li{display: inline;font-size: 30px}
+	a:hover{background-color: #FFFFFF}
+	li a{padding: 9px 16px;width: 65px;display: inline;border-radius: 5px;list-style-type: none;text-decoration: none;}  
+	ul{display: inline;padding: 0;margin: 0;list-style: none;text-underline-position: none;border-radius: 5px}	
+    #Panther{text-align: right;}
+    #x{text-align: center;}
+    #v{text-align: center; text-decoration-color: red}
+
+
+    footer{background-color: red;padding: 20px;display: block;text-align: center;}
+    body{background-image:url("../pictures/ass.jpeg/");}
+   .k{background-color: none
+   }
+   .k h1{text-align: center;}
+  .k img{width: 100px; height: 100px}
+  #kk{
+    text-align:left;
+    border:dotted;
+    background-image: url("../start/Funny-Animations-GIF-Images-for-Whatsapp-Facebook-6.gif/");
+    background-repeat:repeat;
+
+
+  }
+  .fad{
+    background-color:  #ff8080;
+    
+  }

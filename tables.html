@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables</title>
+	<style type="text/css">
+	        #one{color: red;background-color: white}
+         #vice{color: blue;background-color: white}
+       
+         body{background-color: #4da6ff;}
+         table{
+            background-color:  #66b3ff;
+            font-family:MathJax_Caligraphic; 
+            text-align: middle;
+         }
+         h1{
+            text-align: center;
+            color:#003366;
+         }
+         img{
+            float: right;
+            border:2px;
+            margin: 0px 0px 15px 20px;
+         }
+         #war{
+         margin-right:25%;
+         margin-left: 25%;
+         padding:10px;
+         background-color:#004080;
+
+         }
+         .navv li{display: inline;
+            height: 50px;
+   font-size: 200%;
+
+     }
+     .slideshow-container{
+      margin-right: 25%;
+      margin-left:25%;
+     }
+     
+
+
+
+	</style>
+</head>
+<body>
+	 <h1>Table Data</h1>
+            <div class="navv">
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+         </div>
+         <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="cool_warrior.jpg" width="100%" height="140%">
+  <div class="text">Warrior 1</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="pictures/fencing.jpg" width="100%" height="140%">
+  <div class="text">Warrior Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="pictures/tough_girl.jpg" width="100%" height="140%">
+  <div class="text">Warrior Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <hr>
+    <div id="war">
+    <p><img src="cool_warrior.jpg" width="150" height="150">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br></div>
+   
+
+
+   <table border="5px" width="70%" cellpadding="5" cellspacing="5">
+   <tr>
+   	 <th>Name</th>
+       <th colspan="2">middle name</th>
+   	  	 
+   </tr>
+   <tr id="one">
+   	  <td>Hiroshi</td>
+   	  <td>Kamba</td>
+      <td>Kunchi</td>
+   </tr>	
+   <tr id="vice">
+   	  <td>Saint</td>
+      <td>Kiboi</td>
+      <td>Ngeywa</td>
+   </tr>
+   <tr id="one">
+        <td>James</td>
+        <td>Kyile</td>
+      <td>Bond</td>
+   </tr>
+   <tr id="vice">
+        <td>Sean</td>
+      <td>Kip</td>
+      <td>Ngey</td>
+   </tr>
+
+
+
+   </table>
+</marquee>
+</body>
+</html>

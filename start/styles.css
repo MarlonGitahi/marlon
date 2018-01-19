@@ -1,0 +1,57 @@
+#header{
+	text-align: center;
+	font-size:150%;
+}
+.nav{
+	background-color:#0040ff;
+	align-self: inline;
+	height: 50px;
+	font-size: 200%;
+
+}
+a
+{
+	color: #001a66;
+}
+.nav li{
+	color: #ffffff;
+	
+		display: inline;
+	padding: 100px;
+
+	}
+	a:hover{
+		background-color:white;
+		color:blue;   
+	}
+	body{
+		background-image:url("../tenor.gif/");
+		
+		background-size: 200%;
+		background-repeat: no-repeat;
+
+		color:#001a66;
+
+		
+		font-family: MathJax_Caligraphic;
+	}
+	h1{
+		color:#0040ff;
+	}
+	h2{
+		color:#0040ff;
+	}
+	h3{
+		color: #0040ff;
+	}
+	h4{
+		color:#0040ff; 
+	}
+	#footer{
+		background-color:#001433;
+		color:#668cff;
+	}
+
+	#ssd{
+		
+	}
